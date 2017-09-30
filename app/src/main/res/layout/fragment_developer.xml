@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developers.shreeganesha.ranazunjardholtasha.Developer">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#546E7A">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@drawable/developer"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView3" />
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/twitter"
+            android:id="@+id/twiter"
+            android:layout_alignTop="@+id/instagram"
+            android:layout_alignEnd="@+id/textView2" />
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/insta"
+            android:id="@+id/instagram"
+            android:layout_alignTop="@+id/facebook"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/facebook"
+            android:id="@+id/facebook"
+            android:layout_marginTop="85dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/followme"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_above="@+id/instagram"
+            android:layout_toStartOf="@+id/twiter"
+            android:layout_marginBottom="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/twiter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:alpha="0.8"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

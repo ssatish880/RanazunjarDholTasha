@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Ranazunjar Dhol Tasha</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_website">Website</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_website_activity">Website_activity</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="mail">\t\t\tSG Developers\nssatish880@gmail.com</string>
+    <string name="name">Satish N. Sonwale</string>
+    <string name="followme">Follow Me On</string>
+    <string name="instructions">Click On The Above Icon To Follow Me</string>
+    <string name="instruction2">( Click On The Photo To Make Call )</string>
+    <string name="rohit">Rohit Gaikwad</string>
+    <string name="tushar">Tushar Dighe</string>
+    <string name="satish">Satish Sonwale</string>
+    <string name="ranazunjar">Ranazunjar Dhol Tasha Pathak</string>
+    <string name="mail_Ranazunjar">ranazunjar@gmail.com</string>
+    <string name="instruction3">You Can Mail Us At</string>
+    <string name="follow_Us">Follow Us On</string>
+    <string name="instruction4">( Click On The Icon To Follow )</string>
+    <string name="sonya">Aaditya Sonwane</string>
+    <string name="timing">saravaacao izkaNa :\nSaMkr Sao+I ]Vana ,kaLBaaornagar </string>
+</resources>

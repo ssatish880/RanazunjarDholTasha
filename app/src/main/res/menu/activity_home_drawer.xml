@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item android:id="@+id/nav_website" android:icon="@drawable/ic_web"
+            android:title="Website" />
+        <item android:title="Admission Form"
+            android:id="@+id/nav_admission"
+            android:icon="@drawable/ic_admission"></item>
+        <item android:id="@+id/nav_notes" android:icon="@drawable/ic_note"
+            android:title="Notes" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_contact_us" android:icon="@drawable/ic_call"
+                android:title="Contact Us" />
+            <item android:id="@+id/nav_share" android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_social" android:icon="@drawable/ic_menu_send"
+                android:title="Social Media" />
+            <item android:id="@+id/nav_developer" android:title="About Developer"
+                android:icon="@drawable/ic_developer"></item>
+        </menu>
+    </item>
+
+</menu>
